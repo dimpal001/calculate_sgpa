@@ -1,0 +1,139 @@
+
+body{
+	font-family: monospace;
+
+}
+#inputs{
+	width: 85px;
+	height: 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-family: monospace;
+	font-weight: bolder;
+}
+#btn{
+	height: 25px;
+	border-radius: 7px;
+	border: 2px solid black;
+	background: lightblue;
+}
+#btn:hover{
+	box-shadow: 0 0 30px black;
+	background: black;
+	color: white;
+}
+.container{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0;
+}
+p{
+	font-size: 26px	;
+	margin: 5px;
+	margin-bottom: 10px;
+}
+.choose{
+	font-size: 25px;
+	margin: 30px 300px;
+	border: 2px solid black;
+	padding: 10px 0;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+.n_o_s{
+	margin-top: 5px;
+	padding: 20px;
+}
+.n_o_s2{
+	text-decoration: underline;
+	margin: 25px;
+	padding: 10px;
+	color: darkred;
+	text-shadow: 2px 2px 10px blue;
+}
+.n_o_s{
+	margin-top: 5px;
+	padding: 20px;
+}
+.logo{
+	margin: 5px;
+	margin-top: 20px;
+}
+#forms{
+	margin: auto;
+	text-align: center;
+}
+.row{
+	margin: 10px;
+	display: inline-block;
+	justify-content: space-around;
+	font-weight: bold;
+	font-family: monospace;
+}
+.label{
+	text-decoration: underline;
+	margin: 10%;
+	font-size: 25px;
+}
+.input{
+	margin: 5%;
+	width: 70%;
+	height: 25px;
+	font-family: monospace;
+	font-weight: bolders;
+	border: 1.5px solid black;
+	border-radius: 5px;
+}
+.input:focus{
+	background: lightgrey;
+}
+.calculate{
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 6px;
+	background: lightblue;
+	border: 1px solid black;
+	margin-right: 15px;
+}
+.calculate:hover{
+	box-shadow: 0 0 30px black;
+	background: blue;
+	border: 2px solid black;
+}
+.footer{
+	width: 80%;
+	border: 1.5px solid black;
+	box-shadow: 20px black;
+	padding: 10px;
+	margin: auto;
+	background: lightgrey;
+	border-radius: 15px;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+.result{
+	width: 50%;
+	height: 40px;
+	border: none;
+	font-size: 40px;
+	font-family: monospace;
+	font-weight: bolder;
+	text-align: center;
+	background: lightgrey;
+}
+@media screen and (max-width : 800px){
+	.choose{
+		width: 100%;
+		margin: auto;
+	}
+}
+@media screen and (max-width : 400px){
+	.choose{
+		margin: auto;
+	}
+	.n_o_s{
+		margin: 5px;
+		padding: 8px;
+	}
+}
