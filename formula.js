@@ -126,6 +126,7 @@ function chooses(){
 			sum = parseInt(sum) + parseInt(point);
 		}
 		result = sum/sumCredit;
+		result = result.toPrecision(3);
 
 		let div = document.querySelector('#forms');
 		let div2 = document.createElement('div');
