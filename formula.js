@@ -11,15 +11,12 @@ $(function(){
             $("#input-sub").css("pointer-events","none");
             for(let i = 1; i < input; i++){
                 $("#subjects").clone().prependTo("#incoming-row");
-                
-                $(".mark").addClass()
+                let a = "m"+i;
+                $(".marks").removeClass("m0");
+                $(".marks").addClass(a);
             }
             $("#submit-btn").addClass("d-none");
             $("#reset").removeClass("d-none");
-
-            for(let i = 0; i < input; i++){
-                
-            }
         }
     });
     $("#reset").click(function(){
