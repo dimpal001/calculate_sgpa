@@ -12,7 +12,7 @@
 
 <body>
 	<div class="container-fluid">
-		<div class="container mt-2">
+		<div class="container p-md-5 mt-2">
 			<div class="row text-center">
 				<div class="col-12 mt-sm-2 m-md-3">
 					<img id="logo" class="img" src="logo.png" width="110px" alt="">
@@ -53,14 +53,14 @@
 					<table class="table mt-2">
 						<thead>
 							<tr class="row">
-								<th class="col-4">Subjects</th>
-								<th class="col-4">Marks</th>
+								<th id="row-sub" class="sub col-4">Subjects</th>
+								<th id="row-marks" class="col-4">Marks</th>
 								<th class="col-4">Credit</th>
 							</tr>
 						</thead>
 						<tbody id="incoming-row">
 							<tr id="subjects" class="row d-none">
-								<td class="col-4"><input id="inputs" type="text" placeholder="Subject"></td>
+								<td class="col-4"><input id="inputs" class="sub" type="text" placeholder="Subject"></td>
 								<td class="col-4"><input id="inputs" class="marks" type="number" placeholder="Marks"></td>
 								<td class="col-4"><input id="inputs" class="credit" type="number" placeholder="Credit"></td>
 							</tr>
@@ -68,11 +68,11 @@
 					</table>
 				</div>
 			</div>
-			<div id="result-section" class="row d-none">
+			<div id="result-section" class="m-3 row d-none">
 				<div class="col-6 text-center">
 					<button class="btn btn-dark">Clear</button>
 				</div>
-				<div class="col-6 text-center">
+				<div class="col-6">
 					<button id="calculate" class="btn btn-primary">Calculate</button>
 				</div>
 			</div>

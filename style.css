@@ -9,8 +9,20 @@
     #inputs{
         width: 80px;
     }
+    #row-sub{
+        padding-left: 30px;
+    }
+    #row-marks{
+        padding-left: 18px;
+    }
+    #calculate{
+        padding-right: 6px;
+    }
     #input-sub{
-        width: 50px;
+        width: 60px;
+    }
+    .sub{
+        padding-left: 30px;
     }
     #label1{
         padding-top: 6px;
@@ -35,6 +47,9 @@
 }
 #inputs:focus{
     outline: none;
+}
+#row-sub{
+    text-align: left;
 }
 #sub{
     padding-top: 5px;
