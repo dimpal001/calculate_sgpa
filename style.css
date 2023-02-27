@@ -2,9 +2,6 @@
     #submit-btn{
         width: 28%;
     }
-    input::placeholder{
-        font-size: 9px;
-    }
     #sub{
         padding-top: 5px;
         font-size: 16px;
@@ -28,6 +25,13 @@
         font-size: 16px;
         padding: 0px;
     }
+}
+#inputs{
+    outline: none;
+    border-color: transparent;
+}
+#inputs:focus{
+    outline: none;
 }
 #sub{
     padding-top: 5px;
